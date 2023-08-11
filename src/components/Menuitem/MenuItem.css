@@ -1,0 +1,26 @@
+.app__specialMenu-menuItems {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 0;
+}
+
+.app__specialMenu-menuItems-heading {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.app__specialMenu-menuItems-name {
+    flex: 1;
+}
+
+.app__specialMenu-menuItems-dash {
+    width: 90px;
+    height: 1px;
+    background-color: var(--color-golden);
+    margin: 0 1rem;
+}

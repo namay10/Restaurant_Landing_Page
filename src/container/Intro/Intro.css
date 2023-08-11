@@ -1,0 +1,36 @@
+.app__video {
+    height: 100vh;
+    position: relative;
+}
+
+.app__video video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.app__video-overlay {
+    position: absolute;
+    inset: 0;
+}
+
+.app__video:hover .app__video-overlay  {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.app__video-overlay-circle {
+    width: 100px;
+    height: 100px;
+    border: 1px solid var(--color-golden);
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.playPauseButton {
+    opacity: 0;
+}
+
+.app__video:hover .app__video-overlay-circle, .playPauseButton  {
+    opacity: 1;
+}

@@ -1,0 +1,25 @@
+.app__chef-content {
+    margin: 5rem 0;
+}
+
+.app__chef-quote {
+    height: 100%;
+    padding-right: 1rem;
+}
+
+.app__chef-sign {
+    margin-top: 1rem;
+    width: 300px;
+}
+
+@media screen and (max-width: 650px) {
+    .app__chef-content {
+        margin: 2.5rem 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .app__chef-sign {
+        width: 75%;
+    }
+}
